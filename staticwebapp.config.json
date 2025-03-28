@@ -2,13 +2,5 @@
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": ["/images/*.{png,jpg,gif}", "/css/*"]
-  },
-  "routes": [
-    {
-      "route": "/*",
-      "headers": {
-        "Content-Security-Policy": "default-src 'self'; script-src 'self' https://accounts.google.com; style-src 'self'  https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' *; connect-src 'self' https://exjobb-api.azurewebsites.net;"
-      }
-    }
-  ]
+  }
 }
