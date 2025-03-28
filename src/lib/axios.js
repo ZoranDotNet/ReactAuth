@@ -5,7 +5,7 @@ import { jwtDecode } from "jwt-decode";
 import { refreshAccessToken } from "../services/apiAuth";
 
 export const api = axios.create({
-  baseURL: "https://localhost:7000/api",
+  baseURL: "https://exjobb-api.azurewebsites.com/api",
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json; charset=UTF-8",
