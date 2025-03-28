@@ -7,7 +7,7 @@
     {
       "route": "/*",
       "headers": {
-        "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://res.cloudinary.com/notionprojectimage; connect-src 'self' https://exjobb-api.azurewebsites.com;"
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' https://accounts.google.com; style-src 'self' 'unsafe-inline'; img-src 'self' https://res.cloudinary.com/notionprojectimage; connect-src 'self' https://exjobb-api.azurewebsites.com;"
       }
     }
   ]
