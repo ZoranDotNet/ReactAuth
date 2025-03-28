@@ -7,7 +7,7 @@ import { setAuth } from "../slices/authSlice";
 import axios from "axios";
 
 const newAxios = axios.create({
-  baseURL: "https://exjobb-api.azurewebsites.com/api",
+  baseURL: "https://exjobb-api.azurewebsites.net/api",
   headers: {
     Accept: "application/json",
     "Content-Type": "application/json; charset=UTF-8",
