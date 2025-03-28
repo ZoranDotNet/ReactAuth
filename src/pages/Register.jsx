@@ -23,11 +23,10 @@ function Register() {
   //authorization-flow,
   const registerWithGoogle = useGoogleLogin({
     onSuccess: async (codeResponse) => {
-      console.log("response register", codeResponse);
       try {
         const url = "/auth/google-register";
         const response = await api.post(url, { code: codeResponse.code });
-        console.log("logg res", response);
+
         const user = response.data.user;
         const accessToken = response.data.accessToken;
         dispatch(setAuth({ user, accessToken }));

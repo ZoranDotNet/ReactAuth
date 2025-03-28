@@ -21,10 +21,9 @@ function Login() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  //authorization-flow,
+  //authorization-Code-flow,
   const loginWithGoogle = useGoogleLogin({
     onSuccess: async (codeResponse) => {
-      console.log("response", codeResponse);
       try {
         const url = "/auth/google-login";
 
