@@ -7,7 +7,7 @@
     {
       "route": "/*",
       "headers": {
-        "Content-Security-Policy": "default-src 'self'; script-src 'self' https://accounts.google.com; style-src 'self'  https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' *; connect-src 'self' https://exjobb-api.azurewebsites.net;"
+        "Content-Security-Policy": "default-src 'self'; script-src 'self' https://accounts.google.com; style-src 'self'  https://fonts.googleapis.com 'unsafe-inline'; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://res.cloudinary.com; connect-src 'self' https://exjobb-api.azurewebsites.net;"
       }
     }
   ]
